@@ -1,0 +1,8 @@
+/* The heart of the matter */
+.testimonial-group > .row {
+  white-space: nowrap;
+}
+.testimonial-group > .row > .col-* {
+  display: inline-block;
+  float: none;
+}

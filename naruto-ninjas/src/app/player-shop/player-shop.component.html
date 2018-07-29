@@ -1,0 +1,70 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 bg-light border-right d-flex align-items-center">
+      <button [routerLink]="'/ninja-selection'" class="btn btn-success btn-circle p-5">
+        <i class="fas fa-9x fa-user-ninja"></i>
+      </button>
+    </div>
+    <div class="col-10">
+      <div class="row bg-primary justify-content-center pt-5 mb-3">
+        <button [routerLink]="'/player-home'" class="btn btn-primary btn-circle p-5">
+          <i class="fas fa-6x fa-shopping-cart"></i>
+        </button>
+      </div>
+      <div class="row m-3">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Price</th>
+              <th scope="col">Skill</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <button class="btn btn-primary btn-circle">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </td>
+              <td>10$</td>
+              <td class="h5">Fireball</td>
+              <td>ball made of fire</td>
+            </tr>
+            <tr>
+              <td>
+                <button class="btn btn-primary btn-circle">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </td>
+              <td>10$</td>
+              <td class="h5">Iceball</td>
+              <td>ball made of ice</td>
+            </tr>
+            <tr>
+              <td>
+                <button class="btn btn-primary btn-circle">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </td>
+              <td>10$</td>
+              <td class="h5">Grassball</td>
+              <td>ball made of grass</td>
+            </tr>
+            <tr>
+              <td>
+                <button class="btn btn-primary btn-circle">
+                  <i class="fas fa-shopping-cart"></i>
+                </button>
+              </td>
+              <td>10$</td>
+              <td class="h5">Waterball</td>
+              <td>ball made of water</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

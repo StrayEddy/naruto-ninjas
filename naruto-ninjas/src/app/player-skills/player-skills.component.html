@@ -1,0 +1,108 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 bg-light border-right d-flex align-items-center">
+      <button [routerLink]="'/ninja-selection'" class="btn btn-success btn-circle p-5">
+        <i class="fas fa-9x fa-user-ninja"></i>
+      </button>
+    </div>
+    <div class="col-10">
+      <div class="row bg-success justify-content-center pt-5 mb-3">
+        <button [routerLink]="'/player-home'" class="btn btn-success btn-circle p-5">
+          <i class="fas fa-6x fa-book"></i>
+        </button>
+      </div>
+      <div class="row justify-content-center m-5">
+        <div class="col-3 text-center">
+          <button id="selected_skill_1" [routerLink]="'/player-skills'" class="btn btn-default btn-circle p-5">
+            <i class="fas fa-6x fa-book"></i>
+          </button>
+          <h2>
+            Skill 1
+          </h2>
+        </div>
+        <div class="col-3 text-center">
+          <button id="selected_skill_2" [routerLink]="'/player-skills'" class="btn btn-warning btn-circle p-5">
+            <i class="fas fa-6x fa-book"></i>
+          </button>
+          <h2>
+            Skill 2
+          </h2>
+        </div>
+        <div class="col-3 text-center">
+          <button id="selected_skill_3" [routerLink]="'/player-skills'" class="btn btn-default btn-circle p-5">
+            <i class="fas fa-6x fa-book"></i>
+          </button>
+          <h2>
+            Skill 3
+          </h2>
+        </div>
+      </div>
+      <div class="row justify-content-center mb-3">
+        <div class="container testimonial-group">
+          <div class="row text-center">
+            <div id="skill_1" ngDraggable
+            [trackPosition]="trackPosition"
+            [zIndexMoving]="1000"
+            [preventDefaultEvent]="true"
+            (endOffset)="onMoveEnd('skill_1', $event)"
+            class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3 "></i>
+              <h4>Skill 1</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 2</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 3</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 4</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 5</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 6</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 7</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 8</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 9</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 10</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 11</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 12</h4>
+            </div>
+            <div class="col-1 m-1 bg-warning">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 13</h4>
+            </div>
+            <div class="col-1 m-1 bg-info">
+              <i class="fas fa-2x fa-book m-3"></i>
+              <h4>Skill 14</h4>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>

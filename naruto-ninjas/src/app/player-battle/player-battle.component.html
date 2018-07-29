@@ -1,0 +1,51 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2 bg-light border-right d-flex align-items-center">
+      <button [routerLink]="'/ninja-selection'" class="btn btn-success btn-circle p-5">
+        <i class="fas fa-9x fa-user-ninja"></i>
+      </button>
+    </div>
+    <div class="col-10">
+      <div class="row bg-danger justify-content-center pt-5 mb-3">
+        <button [routerLink]="'/player-home'" class="btn btn-danger btn-circle p-5">
+          <i class="fas fa-6x fa-shield-alt"></i>
+        </button>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="row justify-content-center m-2">
+            <button class="btn btn-default btn-circle p-4">
+              <i class="fas fa-4x fa-book"></i>
+            </button>
+            <label>Skill 1</label>
+          </div>
+          <div class="row justify-content-center m-2">
+            <button class="btn btn-warning btn-circle p-4">
+              <i class="fas fa-4x fa-book"></i>
+            </button>
+            <label>Skill 2</label>
+          </div>
+          <div class="row justify-content-center m-2">
+            <button class="btn btn-default btn-circle p-4">
+              <i class="fas fa-4x fa-book"></i>
+            </button>
+            <label>Skill 3</label>
+          </div>
+        </div>
+        <div class="col-4 justify-content-center d-flex align-items-center">
+          <span class="display-1">VS</span>
+        </div>
+        <div class="col-4 justify-content-center d-flex align-items-center">
+          <div class="row pt-5 mb-3">
+            <button [routerLink]="'/player-home'" class="btn btn-default btn-circle p-5">
+              <i class="fas fa-6x fa-user-ninja"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="row bg-dark text-white p-3">
+        <h4>Result</h4>
+      </div>
+    </div>
+  </div>
+</div>
